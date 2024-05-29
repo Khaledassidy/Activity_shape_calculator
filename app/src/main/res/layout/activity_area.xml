@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Area">
+
+
+<!--
+3ana attribute esma   android:visibility=""
+
+hayde btesta3mel la te5fe view 2aw tbyno
+
+by diffult btkoun vissible
+
+momken tkoun 3:
+.visible:ya3ne mbyne mana me5feye
+.gone:ya3ne ya3ne me5feye bel mara
+.invisible:ya3ne me5feye bas ma7jozla ma7al
+
+
+
+
+
+-->
+
+    <Spinner
+        android:id="@+id/group_spinner_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textstyle"
+        android:entries="@array/shapes"
+        android:minHeight="@dimen/group_spinner_shape_min_height">
+
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearlayout2_margintop"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/group_edittext_width"
+            style="@style/textstyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/group_edittext_width_margin_horizantal"
+            android:layout_weight="1"
+            android:autofillHints="numbers"
+            android:hint="@string/group_edittext_width"
+            android:inputType="number"
+            android:minHeight="@dimen/group_edittext_width_min_height"
+            tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/group_edittext_height"
+            style="@style/textstyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/group_edittext_height_margin_horizantal"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/group_edittext_height"
+            android:inputType="number"
+            android:minHeight="@dimen/group_edittext_height_min_height"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize,TouchTargetSizeCheck">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/group_edittext_redius"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/group_edittext_redius_margin_horizantal"
+        android:layout_marginTop="@dimen/group_edittext_redius_margin_top"
+        android:autofillHints="number"
+        android:hint="@string/group_edittext_redius"
+        android:inputType="number"
+        android:minHeight="@dimen/group_edittext_redius_min_height"
+        tools:ignore="VisualLintTextFieldSize">
+
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearlayout3_margintop"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/group_edittext_base"
+            style="@style/textstyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/group_edittext_base_margin_horizantal"
+            android:layout_weight="1"
+            android:autofillHints="number"
+            android:hint="@string/group_edittext_base"
+            android:inputType="number"
+            android:minHeight="@dimen/group_edittext_base_min_height"
+            tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/group_edittext_height2"
+            style="@style/textstyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/group_edittext_height_margin_horizantal"
+            android:layout_weight="1"
+            android:autofillHints="number"
+            android:hint="@string/group_edittext_height"
+            android:inputType="number"
+            android:minHeight="@dimen/group_edittext_height_min_height"
+            tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/group_button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/group_button_calculate_margin_horizantal"
+        android:layout_marginTop="@dimen/group_button_calculate_margin_top"
+        android:textStyle="bold"
+        android:textSize="@dimen/group_button_calculate_textsize"
+        android:text="@string/group_button_calculate"
+        tools:ignore="VisualLintButtonSize">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/group_textview_result"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="@dimen/group_textview_result_textsize">
+
+    </TextView>
+
+</LinearLayout>

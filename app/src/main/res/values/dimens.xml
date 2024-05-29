@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="group_spinner_shape_min_height">48dp</dimen>
+     <dimen name="linearlayout2_margintop">15dp</dimen>
+     <dimen name="group_edittext_width_min_height">48dp</dimen>
+     <dimen name="group_edittext_height_min_height">48dp</dimen>
+     <dimen name="group_edittext_width_margin_horizantal">5dp</dimen>
+     <dimen name="group_edittext_height_margin_horizantal">5dp</dimen>
+     <dimen name="group_edittext_redius_min_height">48dp</dimen>
+     <dimen name="group_edittext_redius_margin_horizantal">5dp</dimen>
+     <dimen name="group_edittext_redius_margin_top">15dp</dimen>
+     <dimen name="linearlayout3_margintop">15dp</dimen>
+     <dimen name="group_edittext_base_min_height">48dp</dimen>
+     <dimen name="group_edittext_base_margin_horizantal">5dp</dimen>
+     <dimen name="group_button_calculate_margin_top">15dp</dimen>
+     <dimen name="group_button_calculate_margin_horizantal">5dp</dimen>
+     <dimen name="group_button_calculate_textsize">18sp</dimen>
+     <dimen name="group_textview_result_textsize">35sp</dimen>
+
+
+
+
+
+
+</resources>

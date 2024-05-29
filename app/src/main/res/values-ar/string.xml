@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShapeCalculator</string>
+    <string name="group_edittext_width">العرض</string>
+    <string name="group_edittext_height">الطول</string>
+    <string name="group_button_calculate">احسب</string>
+    <string name="group_edittext_redius">نصف القطر</string>
+    <string name="group_edittext_base">القاعدة</string>
+
+
+    <string-array name="shapes">
+        <item name="circle">داءرة</item>
+        <item name="Rectangle">مستطيل</item>
+        <item name="Triangle">مثلث</item>
+    </string-array>
+
+
+    <!-- besta3mel hay tare2a iza bade yehoun sebten w b2alb l spinner fe attribute esma (entries) b7ot l string array resource la 2ela-->
+    <!--    btblesh mn index 0 ya3ne  index ta3ela 0 circle index ta3ela 1 rectangle....etc-->
+
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShapeCalculator</string>
+    <string name="group_edittext_width">Width</string>
+    <string name="group_edittext_height">Height</string>
+    <string name="group_button_calculate">Calculate</string>
+    <string name="group_edittext_redius">Redius</string>
+    <string name="group_edittext_base">Base</string>
+
+
+
+    <string-array name="shapes">
+        <item name="circle">Cirle</item>
+        <item name="Rectangle">Rectangle</item>
+        <item name="Triangle">Triangle</item>
+    </string-array>
+
+
+<!-- besta3mel hay tare2a iza bade yehoun sebten w b2alb l spinner fe attribute esma (entries) b7ot l string array resource la 2ela-->
+<!--    btblesh mn index 0 ya3ne  index ta3ela 0 circle index ta3ela 1 rectangle....etc-->
+
+</resources>

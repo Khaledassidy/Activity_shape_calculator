@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShapeCalculator" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/COLOR_PRIMARY</item>
+        <item name="colorPrimaryDark">@color/COLOR_PRIMARY_DARK</item>
+        <item name="colorAccent">@color/ACCENT_COLOR</item>
+        <item name="android:navigationBarColor">@color/COLOR_PRIMARY_DARK</item>
+    </style>
+
+    <style name="textstyle" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Theme.ShapeCalculator" parent="Base.Theme.ShapeCalculator" />
+</resources>
